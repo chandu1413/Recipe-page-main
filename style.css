@@ -15,6 +15,11 @@ background-color: antiquewhite;
     padding: 30px;
 }
 
+.inner-div{
+    background-color: rgb(255, 250, 244);
+    padding: 15px;
+}
+
 .image-sty {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -25,20 +30,45 @@ background-color: antiquewhite;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5vh;
+    font-size: 3rem;
   }
 
  p{
     font-family: "Outfit";
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+    
   }
 ul li,ol li {
     font-family: "Outfit";
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
 }
-  
+h1{
+    color: rgb(143, 41, 41);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.table{
+    width: 100%;
+    text-align: left;
+    
+}
+
+.spn-tex{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+   color:rgb(143, 41, 41);
+}
+.table-body tr td{
+    text-item: left;
+}
 
 @media screen and (min-width: 1441px) {
     .image-sty {
