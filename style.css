@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0px;
+}
+
 
 .main-div{
 display: flex;
@@ -8,16 +12,18 @@ background-color: antiquewhite;
 }
 .container{
     width: 50%;
-    border: 1px solid red;
     margin-top: 5%;
+    margin-bottom: 5%;
     height: auto;
     background-color: white;
     padding: 30px;
+    border-radius: 20px;
 }
 
 .inner-div{
     background-color: rgb(255, 250, 244);
-    padding: 15px;
+    padding: 25px;
+    margin: 10px;
 }
 
 .image-sty {
@@ -30,14 +36,18 @@ background-color: antiquewhite;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2rem;
+    margin: 0px 15px ;
   }
+
 
  p{
     font-family: "Outfit";
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    text-align: justify;
+    margin: 30px 0px;
     
   }
 ul li,ol li {
@@ -46,18 +56,16 @@ ul li,ol li {
     font-style: normal;
     font-size: 16px;
     text-align: justify;
-    margin-bottom: 10px;
+    margin: 15px 0px;
+
+    
 }
 h1{
     color: rgb(143, 41, 41);
     font-family: "Young Serif", serif;
     font-weight: 400;
+    margin: 20px 0px;
     font-style: normal;
-}
-.table{
-    width: 100%;
-    text-align: left;
-    
 }
 
 .spn-tex{
@@ -66,13 +74,20 @@ h1{
     font-style: normal;
    color:rgb(143, 41, 41);
 }
-.table-body tr td{
-    text-item: left;
+hr{
+    margin: 5px;
 }
 
-@media screen and (min-width: 1441px) {
-    .image-sty {
-       
-    }
+.table-div{
+    display: flex;
+    width: 100%;
+
+
+
 }
+.t-body-div{
+    width: 50%;
+ 
+}
+
 
